@@ -103,7 +103,7 @@ set(LTSE_EXTRA_INCLUDES ${sol2_SOURCE_DIR}/include ${LTSE_EXTRA_INCLUDES})
 FetchContent_Declare(
   tinygltf
   GIT_REPOSITORY https://github.com/syoyo/tinygltf.git
-  GIT_TAG        master
+  GIT_TAG        release
   GIT_PROGRESS   TRUE )
 
 FetchContent_MakeAvailable(tinygltf)
