@@ -133,7 +133,7 @@ namespace LTSE::SensorModel
         AcquisitionContext mFlashList;
 
 
-      protected:
+      public:
         Ref<Scope> mScope; //!< Reference to the computation scope.
 
         OpNode mFlashIdLUT{};           //!< TensorNode representing a mapping between generated rays to the index of the rectangle they came from
